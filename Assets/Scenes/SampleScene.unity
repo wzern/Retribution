@@ -3935,6 +3935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Zombie: {fileID: 2696700349370184069, guid: 4bd18c82a1bf1b9439dd20dc6caf8a79, type: 3}
   spawnRate: 2
+  ZombieCountMax: 5
 --- !u!4 &1113033131
 Transform:
   m_ObjectHideFlags: 0
