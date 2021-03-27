@@ -3,7 +3,7 @@
 ###
 [Aa]ssets/AssetStoreTools*
 [Bb]uild/
-
+[Ll]ogs/
 [Ll]ibrary/*
 ![Ll]ibrary/StateCache/
 
