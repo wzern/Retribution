@@ -16,6 +16,10 @@ public class PlayerMovement : MonoBehaviour
     //Storing player input for fixed update movement
     Vector2 movement;
 
+    //Getting Camera 
+    Vector2 mousePos;
+    public Camera cam;
+
     void Update()
     {
         //Input
@@ -26,6 +30,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
+        //getting mouse position
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
     }
 
     private void FixedUpdate()
@@ -34,5 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
         //Gets currect position then adds movement times move speed
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+
     }
 }
