@@ -3665,6 +3665,7 @@ GameObject:
   - component: {fileID: 443421901}
   - component: {fileID: 443421900}
   - component: {fileID: 443421904}
+  - component: {fileID: 443421905}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3705,9 +3706,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f692f2769878e544b88fd0720d2fe17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   rb: {fileID: 443421900}
-  animator: {fileID: 0}
+  animator: {fileID: 443421905}
 --- !u!212 &443421902
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3801,6 +3802,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &443421905
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443421899}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15d4744337bc4b145aa8a258e2324154, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
