@@ -23,6 +23,7 @@ public class ZombieSpawnerScript : MonoBehaviour
         }
     }
 
+    //generate random position for zombie to spawn
     static Vector2 RandomPos()
     {
         float randX = 0; //for random x position
