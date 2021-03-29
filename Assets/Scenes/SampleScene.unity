@@ -3668,7 +3668,7 @@ GameObject:
   - component: {fileID: 443421905}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3709,7 +3709,7 @@ MonoBehaviour:
   moveSpeed: 3
   rb: {fileID: 443421900}
   animator: {fileID: 443421905}
-  cam: {fileID: 0}
+  cam: {fileID: 519420031}
 --- !u!212 &443421902
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3936,7 +3936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Zombie: {fileID: 2696700349370184069, guid: 4bd18c82a1bf1b9439dd20dc6caf8a79, type: 3}
   spawnRate: 0.01
-  ZombieCountMax: 10
+  ZombieCountMax: 20
 --- !u!4 &918119097
 Transform:
   m_ObjectHideFlags: 0

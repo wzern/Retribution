@@ -4,19 +4,11 @@ using UnityEngine;
 
 public class ZombieDamage : MonoBehaviour
 {
-    public int zombieHealth = 30;
-    int damage= 10;
-
-    private void Start()
-    {
-        print (zombieHealth);
-    }
-
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if(collision.gameObject.name == "placeholderForZombie")
         {
-            print("Player Collided");
+            Destroy(collision.gameObject);
         }
     }
 }
