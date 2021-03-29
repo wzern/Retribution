@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4519681993474883864}
   - component: {fileID: 6842639246976831251}
   - component: {fileID: 6767607579006701976}
+  - component: {fileID: -2953514184281283122}
   m_Layer: 0
   m_Name: placeholderForZombie
   m_TagString: Untagged
@@ -132,3 +133,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &-2953514184281283122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2696700349370184069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c921e8cf6754854e95901372c4cbe0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

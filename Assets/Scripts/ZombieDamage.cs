@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class ZombieDamage : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.name == "placeholderForZombie")
-        {
-            Destroy(collision.gameObject);
-        }
+        Debug.Log("HIT");
     }
 }
